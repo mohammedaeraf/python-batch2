@@ -18,7 +18,9 @@ Write a Python program to calculate the **perimeter of a rectangle**.
 
 Perimeter of a rectangle:
 
-genui{"shapes_measurement_learning_block":{"type_id":"FIXED_PERIMETER_RECTANGLE_AREA"}}
+```text
+perimeter = 2 * (length + width)
+```
 
 **Sample Output**
 
