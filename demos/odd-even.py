@@ -3,6 +3,7 @@
 # Even Nos - 2,4,6,8... (Numbers divisible by 2)
 
 n = int(input("Enter a number: "))
+n = 7
 rem = n % 2
 # print("Remainder =", rem)
 
