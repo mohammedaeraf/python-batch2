@@ -4,11 +4,9 @@
 # output = 10
 
 n = int(input("Enter a number: "))
-
-i = 1
 total = 0
-while i <=n :
+for i in range(1,n+1):
     total = total + i
-    i = i + 1
+    # print("total now =", total)
 
-print("Total =", total)
+print("Sum of 1st",n,"numbers =", total)
