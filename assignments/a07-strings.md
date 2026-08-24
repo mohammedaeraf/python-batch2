@@ -1,4 +1,4 @@
-# 🧪 Lab Assignment 06 – Strings in Python
+# 🧪 Lab Assignment 07 – Strings in Python
 
 ## 📘 Instructions
 
