@@ -1,7 +1,10 @@
 # Create a list of student names
 students = ["Ali","Arif","Sunita","Joseph"]
+
 print(students)  # Output: ['Ali', 'Arif', 'Sunita', 'Joseph']
 print(students[3])  # Access the 4th element (index 3) -> Joseph
+
+students[0] = "Javed"
 
 # Create a list of fruits
 fruits = ["Apple","Banana","Pineapple"]

@@ -1,6 +1,13 @@
+# Strings are immutable
 course = "python"
 n = 10
 print(course[0])
+
+course[0] = "z"
+
+
+
+
 print(len(course))
 print(course[0:5])
 print(course[-1])
