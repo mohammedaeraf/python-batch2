@@ -3,7 +3,7 @@
 
 # Example 1: Student dictionary containing personal and academic information
 student1 = {
-    "name":"Mohammed Mubin",
+    "name":["Mohammed","Mubin","Kulkarni"],
     "age": 23,
     "course": "Web Design",
     "marks": 94
