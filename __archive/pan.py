@@ -23,3 +23,6 @@ df["Marks"].sum()
 df[df["Marks"] >= 80]
 
 df.sort_values("Marks")
+print(df[df["Marks"] > 80])
+df["Passed"] = df["Marks"] >= 40
+print(df)
