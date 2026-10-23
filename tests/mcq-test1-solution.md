@@ -5,7 +5,11 @@
 What is the output of the following code?
 
 ```
-x = 12if x > 10:    print("A")else:    print("B")
+x = 12
+if x > 10:
+  print("A")
+else:    
+  print("B")
 ```
 
 1. A
@@ -20,7 +24,8 @@ Correct Answer: Option 1 — A
 What is the output of this code?
 
 ```
-for i in range(1, 5):    print(i, end=" ")
+for i in range(1, 5):    
+  print(i, end=" ")
 ```
 
 1. 1 2 3 4 5
@@ -35,7 +40,9 @@ Correct Answer: Option 4 — 1 2 3 4
 What is the output?
 
 ```
-numbers = [10, 20, 30]numbers.append(40)print(len(numbers))
+numbers = [10, 20, 30] 
+numbers.append(40) 
+print(len(numbers)) 
 ```
 
 1. 4
@@ -76,7 +83,9 @@ Correct Answer: Option 2 — PYTHON
 What is the output?
 
 ```
-def add(a, b):    return a + bprint(add(3, 4))
+def add(a, b):    
+  return a + b
+print(add(3, 4))
 ```
 
 1. 34
@@ -91,7 +100,9 @@ Correct Answer: Option 2 — 7
 What is the result of this function call?
 
 ```
-def calculate(a, b=5):    return a * bcalculate(3)
+def calculate(a, b=5):    
+  return a * b
+calculate(3)
 ```
 
 1. 15
@@ -117,7 +128,8 @@ Correct Answer: Option 2 — Tuples are immutable sequences
 What is the output?
 
 ```
-student = {"name": "Sara", "marks": 90}print(student["marks"])
+student = {"name": "Sara", "marks": 90}
+print(student["marks"])
 ```
 
 1. Sara
@@ -132,7 +144,8 @@ Correct Answer: Option 2 — 90
 What is the output of the following code?
 
 ```
-numbers = [10, 20, 30, 40, 50, 60]print(numbers[-3:])
+numbers = [10, 20, 30, 40, 50, 60]
+print(numbers[-3:])
 ```
 
 1. [10, 20, 30]
@@ -158,7 +171,9 @@ Correct Answer: Option 4 — `items()`
 What is the output of the following code?
 
 ```
-set1 = {1, 2, 3, 4}set2 = {3, 4, 5, 6}print(set1.intersection(set2))
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+print(set1.intersection(set2))
 ```
 
 1. {1,2}
